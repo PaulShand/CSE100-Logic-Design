@@ -1,39 +1,45 @@
 # Logic Design Projects - Verilog Code
-Welcome to my repository containing Verilog (.v) source files for various projects completed during my Introduction to Logic Design. These projects were originally developed using Vivado and programmed onto a Basys 3 FPGA board.
+
+Welcome to my repository, which contains Verilog (.v) source files for various interactive projects completed using a Basys 3 FPGA board and its I/O components.
 
 ## About This Repository
-This repository is dedicated to showcasing my Verilog coding skills and the practical applications of these skills in digital logic design. The focus is on the Verilog code itself, therefore, only the .v files are included here. Each project demonstrates different aspects of digital logic design, ranging from basic logic gates to more complex digital systems.
+
+This repository is dedicated to showcasing my Verilog coding skills and the practical applications of these skills in digital logic design. Each project demonstrates different aspects of working with digital circuits, focusing primarily on the Verilog code.
 
 ## Project Overview
 
-Each project in this series focuses on a different aspect of digital logic design, progressively building on the concepts learned. Below is an overview of each project:
-
-### Full Adder
-- **Description**: An introductory project to familiarize with simple expression implementation.
-- **Key Learning**: Understanding basic digital logic operations.
-
-### Multiplexer
-- **Description**: Implementation of multiplexers using basic expressions.
-- **Objective**: Grasp the fundamental concept behind multiplexers in digital circuits.
-
-### Flip Flop
-- **Description**: A rudimentary implementation of a flip flop in a counter design.
-- **Application**: Demonstrates the use of flip flops for state retention and counting mechanisms.
+Below is an overview of each project included in this repository, each highlighting a different aspect of digital logic design:
 
 ### Reflex Game
-- **Description**: A comprehensive project that combines basic logic design and state machines to create an interactive reflex game.
-- **Features**: The game includes various states indicating win or lose outcomes and is interactable through the board.
+- **Description**: This project combines basic logic design with state machines to create an interactive reflex game. The game utilizes a counter displayed on a 7-segment display, with the goal being to press a button at precisely the right time.
+- **Features**: Includes multiple game states that indicate win or lose outcomes, interactively managed through the FPGA board's input.
 
 ### Turkey Counter
-- **Description**: A system using two laser sensors connected to the board to count turkeys passing through the lasers.
-- **Implementation**: Focuses on sensor integration and counting logic.
+- **Description**: A practical application using two laser sensors connected to the board to count turkeys as they pass through. The challenge lies in implementing logic to accurately count only when a turkey has completely passed from one end to the other.
+- **Implementation**: Focuses on integrating sensors and developing robust counting logic suitable for real-world applications.
 
 ### Flappy Bird
-- **Description**: A complex project that replicates the Flappy Bird game, utilizing a VGA connection to a monitor.
-- **Technicalities**: Involves using arrays for x and y coordinates, implementing coloring logic for each pixel, and managing collision detection.
-- **Control**: The game is controlled through inputs on the board.
+- **Description**: A more complex project that replicates the popular Flappy Bird game using a VGA connection to display the game on a monitor.
+- **Technicalities**: This project makes extensive use of arrays for managing x and y coordinates, applies coloring logic to each pixel, and includes collision detection to enhance gameplay.
+- **Control**: Controlled via inputs on the Basys 3 FPGA board, providing a tactile interaction with the game.
 
 ## Getting Started
-Prerequisites
-- Xilinx Vivado (for code compilation and simulation)
-- Basys 3 FPGA Board (for implementation, not required for code review)
+
+### Prerequisites
+- **Xilinx Vivado**: Required for code compilation and simulation.
+- **Basys 3 FPGA Board**: Necessary for implementing the projects, although not required for code review.
+
+## Contributing
+
+Contributions to this repository are welcome! Whether you have enhancements to the code, bug fixes, or suggestions, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is open-source and available under the [Insert License Name] license.
+
+## Contact
+
+For any questions or collaborations, please feel free to contact me at [Insert Your Email].
+
+Thank you for visiting my repository!
+
